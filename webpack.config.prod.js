@@ -33,7 +33,7 @@ module.exports = {
 	],
 	module: {
 		loaders: [
-			{ 
+            {
 				test: /\.js$/,
 				use: {
 					loader: 'babel-loader'
@@ -41,7 +41,7 @@ module.exports = {
 				include: path.resolve(__dirname, 'src')
 			},
 			{
-				test: /\.scss/,
+                test: /\.s?css/,
 				use: ExtractTextPlugin.extract({
 					fallback: 'style-loader',
 					use: [
