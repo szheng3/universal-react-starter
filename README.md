@@ -1,8 +1,13 @@
 # universal-boilerplate
 
+###
+```sh
+modify from 
+https://github.com/justinjung04/universal-boilerplate.git
+```
 ### Install
 ```sh
-git clone https://github.com/justinjung04/universal-boilerplate.git
+git clone https://github.com/szheng3/universal-react-starter.git
 cd universal-boilerplate
 npm install
 ```
